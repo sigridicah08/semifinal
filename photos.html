@@ -1,0 +1,177 @@
+<!DOCTYPE HTML>
+<html lang="en">
+    <head>
+         <link rel="stylesheet" type="text/css" href="style.css">
+        <style>
+           body {
+          color: deeppink;
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 300;
+}
+h2 {
+	margin: 60px 15px 0;
+	padding: 30px;
+	font-weight: 300;
+}
+h2 span {
+	margin-left: 1em;
+	color: deeppink;
+	font-size: 85%;
+    padding: 15px;
+}
+.column {
+	margin: 15px 15px 0;
+	padding: 0;
+    height: 100px;
+}
+
+.column div {
+	position: relative;
+	float: left;
+	width: 300px;
+	height: 200px;
+	margin: 0 0 0 25px;
+	padding: 10px;
+}
+.column div:first-child {
+	margin-left: 350px;
+}
+.column:last-child {
+	padding-bottom: 60px;
+    margin-top: 40px;
+}
+.column::after {
+	content: '';
+	clear: both;
+	display: block;
+}
+.column div span {
+	position: absolute;
+	bottom: -20px;
+	left: 0;
+	z-index: -1;
+	display: block;
+	width: 300px;
+	margin: 0;
+	padding: 0;
+	color: #444;
+	font-size: 18px;
+	text-decoration: none;
+	text-align: center;
+	-webkit-transition: .3s ease-in-out;
+	transition: .3s ease-in-out;
+	opacity: 0;
+}
+figure {
+	width: 300px;
+	height: 200px;
+	margin: 0;
+	padding: 0;
+	background: #fff;
+	overflow: hidden;
+    border-top: solid pink 10px;
+    border-bottom: solid pink 10px;
+    border-right: solid pink 10px;   
+    border-left: solid pink 10px;
+}
+figure:hover+span {
+	bottom:-50px;
+	opacity: 1;
+}
+.hover07 figure img {
+	-webkit-filter: blur(3px);
+	filter: blur(3px);
+	-webkit-transition: .3s ease-in-out;
+	transition: .3s ease-in-out;
+}
+.hover07 figure:hover img {
+	-webkit-filter: blur(0);
+	filter: blur(0);
+}
+
+.dropbtn {
+    color: white;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+}
+
+.dropdown {
+    position: absolute;
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: lightpink;
+    min-width: 100%;
+    border-top-right-radius: 15px;
+    border-top-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+    border-bottom-left-radius: 15px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown-content a:hover {background-color: #f1f1f1}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.dropdown:hover .dropbtn {
+    background-color: deeppink;
+}
+</style>
+        <meta charset="utf-8"/>
+        <meta name="viewport" content="width-device-width, initial-scale=1.0">
+        <title> semi </title>
+        <link rel="stylesheet" type="text/css" href="style.css">
+        </head>
+        <body>
+            <body class="body">
+                <div class="logo">
+                    <img src="img/4.jpg" height="30" width="30"> &nbsp; &nbsp;
+                        <img src="img/2.jpg" height="30" width="30"> &nbsp; &nbsp;
+                        <img src="img/3.png" height="30" width="30">
+                    </div>
+                        <div class="banner">
+                            </div>
+                            <div class="nav"> <ul>
+                                <li> <b><a href="index.html"> Home </a> </b></li>
+                                <li><b> <a href="about.html"> About me </a></b> </li>
+                            <li class="dropdown"> 
+                           <b> <a href="javascript:void(0)" class="dropbtn">Gallery</a></b>
+                            <div class="dropdown-content">
+                            <a href="photoshop.html">Photoshop</a>
+                            <a href="photos.html">Photos</a></li>
+                             &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; 
+                            &nbsp; &nbsp; &nbsp; &nbsp;
+                            <li> <b><a href="contact.html"> Contact </a> </b></li>
+                                </div>
+                     </header>
+	<div class="hover07 column">
+		<div>
+			<figure><a href="pic1.html"> <img src="img/i (1).jpg" height="250" width="300"/></a></figure>
+			<span><font face="centaur" size="5" color="deeppink">#Selfies</font></span>
+		</div>
+        <div>
+			<figure><a href="pic2.html"><img src="img/gf.jpg" height="200" width="320"/></a></figure>
+			<span><font face="centaur" size="5" color="deeppink">#Groufies</font></span>
+		</div>
+		
+  </div>
+         </body>
+         </html>
+       </body>
+       </html>

@@ -1,0 +1,127 @@
+<!DOCTYPE HTML>
+<html lang="en">
+        <head>
+        <link rel="stylesheet" type="text/css" href="style.css">
+        <style>
+            #gallery-container {
+	position: relative;
+	width: 40%;
+	height: auto;
+	padding-top: 400px;
+	padding-bottom: 15px;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+    margin-top: 20px;
+    border-top: solid pink 3px;
+    border-bottom: solid pink 3px;
+    border-right: solid pink 3px;   
+    border-left: solid pink 3px; 
+    color: deeppink;
+}
+
+img.gallery-fullsize {
+	position: absolute;
+	top: 15px;
+	left: 50px;
+	display: none;
+}
+
+div.gallery-item {
+	display: inline-block;
+    width: 15%;
+}
+
+img.gallery-preview:hover ~ img.gallery-fullsize {
+	display: block;
+    width: 60%;
+    height: 380px;
+     margin-left: 60px;
+}
+
+.dropbtn {
+    color: white;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+}
+
+.dropdown {
+    position: absolute;
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: lightpink;
+    min-width: 100%;
+    border-top-right-radius: 15px;
+    border-top-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+    border-bottom-left-radius: 15px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown-content a:hover {background-color: pink}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.dropdown:hover .dropbtn {
+    background-color: deeppink;
+}
+</style>
+        <meta charset="utf-8"/>
+        <meta name="viewport" content="width-device-width, initial-scale=1.0">
+        <title> semi </title>
+        <link rel="stylesheet" type="text/css" href="style.css">
+        </head>
+        <body>
+            <body class="body">
+                <div class="logo">
+                    <img src="img/4.jpg" height="30" width="30"> &nbsp; &nbsp;
+                        <img src="img/2.jpg" height="30" width="30"> &nbsp; &nbsp;
+                        <img src="img/3.png" height="30" width="30">
+                    </div>
+                        <div class="banner">
+                            </div>
+                            <div class="nav"> <ul>
+                                <li> <b><a href="index.html"> Home </a></b> </li>
+                                <li> <b> <a href="about.html"> About me </a></b> </li>
+                            <li class="dropdown">
+                            <b><a href="javascript:void(0)" class="dropbtn">Gallery</a></b> 
+                            <div class="dropdown-content">
+                            <a href="photoshop.html">Photoshop</a>
+                            <a href="photos.html">Photos</a> </li>
+                            &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; 
+                            &nbsp; &nbsp; &nbsp; &nbsp;
+                            <li> <b><a href="contact.html"> Contact </a> </b></li>
+                                </div>
+                     </header>
+	<div id="gallery-container">
+        <header><h2><font face="centaur" size="4"> #My Works</font> </h2></header>
+	<div class="gallery-item">
+		<img src="img/icah.jpg" height="100" width="70" class="gallery-preview" />
+		<img src="img/icah.jpg" class="gallery-fullsize" />
+	</div>
+    <div class="gallery-item">
+		<img src="img/cover.jpg" height="100" width="70" class="gallery-preview" />
+		<img src="img/cover.jpg" class="gallery-fullsize" />
+	</div>
+	
+</div>
+
+
+         </body>
+         </html>

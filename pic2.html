@@ -1,0 +1,76 @@
+<!DOCTYPE HTML>
+<html lang="en">
+        <head>
+        <link rel="stylesheet" type="text/css" href="style.css">
+        <style>
+            #gallery-container {
+	position: relative;
+	width: 40%;
+	height: auto;
+	padding-top: 450px;
+	padding-bottom: 15px;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+    margin-top: 20px;
+    border-top: solid pink 3px;
+    border-bottom: solid pink 3px;
+    border-right: solid pink 3px;   
+    border-left: solid pink 3px; 
+    color: deeppink;
+    margin-top: 50px;
+}
+
+img.gallery-fullsize {
+	position: absolute;
+	top: 15px;
+	left:35px;
+	display: none;
+}
+
+div.gallery-item {
+	display: inline-block;
+    width: 15%;
+}
+
+img.gallery-preview:hover ~ img.gallery-fullsize {
+	display: block;
+    width: 90%;
+    padding-top: 10px;
+    height: 420px;
+}
+</style>
+</style>
+<body>
+    <div id="gallery-container">
+        <header><h2><font face="centaur" size="5">#groufies</font> </h2></header>
+	<div class="gallery-item">
+		<img src="img/gf.jpg" height="90" width="90" class="gallery-preview" />
+		<img src="img/gf.jpg" class="gallery-fullsize" />
+	</div>
+    <div class="gallery-item">
+		<img src="img/11.jpg" height="90" width="90" class="gallery-preview" />
+		<img src="img/11.jpg" class="gallery-fullsize" />
+	</div>
+    <div class="gallery-item">
+		<img src="img/12.jpg" height="90" width="90" class="gallery-preview" />
+		<img src="img/12.jpg" class="gallery-fullsize" />
+	</div>
+    <div class="gallery-item">
+		<img src="img/13.jpg" height="90" width="90" class="gallery-preview" />
+		<img src="img/13.jpg" class="gallery-fullsize" />
+	</div>
+    <div class="gallery-item">
+		<img src="img/14.jpg" height="90" width="90" class="gallery-preview" />
+		<img src="img/14.jpg" class="gallery-fullsize" />
+	</div>
+    <div class="gallery-item">
+		<img src="img/15.jpg" height="90" width="90" class="gallery-preview" />
+		<img src="img/15.jpg" class="gallery-fullsize" />
+	</div>
+	
+</div>
+
+
+         </body>
+         </html>

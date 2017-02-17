@@ -1,0 +1,140 @@
+*{
+margin:0 auto;
+}
+body{
+    background-color: black;
+}
+.logo{
+    background-color: pink;
+    height: 20px;
+    padding: 10px;
+}
+.logo img{
+    float: right;
+    padding: 10px;
+}
+.banner{
+    background-color: pink;
+    height: 200px;
+    background-image: url("img/lll.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    margin-bottom: 10px;
+}
+.banner img{
+    width: 80%;
+}
+.nav{
+    border-top: 5px solid pink;
+    border-top-style: dashed;
+    border-bottom: 5px solid pink;
+    border-bottom-style: dashed;
+    height: 40px;
+    width: 150%;
+    font-family: Lucida Handwriting;
+    width: 80%;
+    margin: 0 auto;
+}
+.nav ul{
+    list-style: none;
+    margin: 0 auto;
+    text-align: center;
+}
+.nav ul li{
+    display: inline;
+}
+.nav a:link, .nav a:visited{
+    color: hotpink;
+    font-size: 20px;
+    display: inline-block;
+    Padding: 10px 30px;
+    height: 20px;
+}
+.nav a:hover, .header nav a:active{
+    background-color: deeppink;
+    text-shadow: none;
+}
+.nav ul li a{
+    border-radius: 3px;
+    -moz-border-radius: 3px;
+    -webkit-border-radius: 3px;
+}
+a{
+    text-decoration: none;
+}
+.content{
+    height: 300px;
+    width: 60%;
+    margin: 0 auto;
+    margin-top: 40px;
+    border-top-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    border-top: solid pink 3px;
+    border-bottom: solid pink 3px;
+    border-right: solid pink 3px;   
+    border-left: solid pink 3px;  
+}
+.topcontent{
+    height: 290px;
+    width: 60%;
+    float: left;
+    padding: 5px;
+    color: deeppink;
+}
+.topsidebar{
+    background-color: pink;
+    height: 290px;
+    float: right;
+    width: 38%;
+    margin-top: 5px;
+    margin-right: 5px;
+}
+.topsidebar img{
+    width: 90%;
+    height: 250px;
+    padding: 15px;
+}
+.content1{
+    width: 40%;
+    margin: 0 auto;
+    margin-top: 50px; 
+    font-family: centaur;
+    font-size: 26px; 
+    color: deeppink;
+    float: left;
+    margin-left: 20%;
+    
+}
+.content1 img{
+    height: 240px;
+    width: 35%;
+}
+.textwrap{
+ float: left;
+ margin: 10px;
+}
+.topsidebar1{
+    height: 260px;
+    float: right;
+    margin-top:55px;
+    width: 18%;
+    margin-right: 20%;
+    padding-left: 10px;
+    border-top: solid pink 3px;
+    border-bottom: solid pink 3px;
+    border-right: solid pink 3px;   
+    border-left: solid pink 3px; 
+    border-top-right-radius: 15px;
+    border-top-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+    border-bottom-left-radius: 15px;
+    padding-top: 10px;
+}
+.content2 img{
+    height: 155px;
+    width: 25%;
+}
+
+
+
+    
